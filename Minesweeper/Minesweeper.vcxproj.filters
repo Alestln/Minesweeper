@@ -25,6 +25,12 @@
     <Filter Include="Source Files\include\Board">
       <UniqueIdentifier>{b2fac02a-a3b1-4257-bc87-be6cbc3a63ba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\include\UI">
+      <UniqueIdentifier>{ff6d29ee-8bf7-4936-a8f2-099f28caa144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\UI">
+      <UniqueIdentifier>{883e6d07-be3f-49e1-967e-d4b9c729f9e6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Minesweeper.cpp">
@@ -33,10 +39,28 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>Source Files\src\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source Files\src\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardDisplay.cpp">
+      <Filter>Source Files\src\UI</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CellState.h">
       <Filter>Source Files\include\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>Source Files\include\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Source Files\include\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardDisplay.h">
+      <Filter>Source Files\include\UI</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

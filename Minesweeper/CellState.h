@@ -2,11 +2,15 @@
 #define CELL_STATE_H
 
 namespace Minesweeper {
-	enum class CellState {
-		Hidden, ///< ячейка скрыта и не была открыта игроком.
-		Revealed, ///< ячейка открыта, еЄ содержимое видно игроку.
-		Flagged ///< ячейка помечена флагом, предположительно содержит мину.
-	};
+
+	namespace Board {
+		/// Represents the possible states of a cell on the game board.
+		enum class CellState {
+			Hidden, ///< The cell is hidden (not revealed by the player).
+			Revealed, ///< The cell is revealed (its content is visible).
+			Flagged ///< The cell is flagged (suspected to contain a mine).
+		};
+	}
 }
 
 #endif // CELL_STATE_H
