@@ -19,6 +19,12 @@
     <Filter Include="Source Files\include">
       <UniqueIdentifier>{1e1a708b-e156-483a-afd6-f95f0d3b9923}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\src\Board">
+      <UniqueIdentifier>{d21f0339-d7e5-49ab-aaf4-e8e2a9b5a7c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\include\Board">
+      <UniqueIdentifier>{b2fac02a-a3b1-4257-bc87-be6cbc3a63ba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Minesweeper.cpp">
@@ -27,5 +33,10 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CellState.h">
+      <Filter>Source Files\include\Board</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
